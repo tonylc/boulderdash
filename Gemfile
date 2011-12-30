@@ -20,5 +20,7 @@ gem 'unicorn'
 
 group :test do
   # Pretty printed test output
-  gem 'turn', :require => false
+  # gem 'turn', :require => false
+  gem 'rspec', '2.6.0'
+  gem 'rspec-rails', "2.6.1"
 end
