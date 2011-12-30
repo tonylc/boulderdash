@@ -23,4 +23,5 @@ group :test do
   # gem 'turn', :require => false
   gem 'rspec', '2.6.0'
   gem 'rspec-rails', "2.6.1"
+  gem 'mocha', '0.10.0'
 end
