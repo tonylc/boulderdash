@@ -8,11 +8,10 @@ end
 
 describe JenkinsService do
   let(:backend) { mock }
-  let(:jenkins_service) { JenkinsService.new(TestBackend.new) }
+  let(:jenkins_service) { JenkinsService.new(TestBackend) }
 
   before do
-    # this is crap, need to remove
-    TestBackend.stubs(:new).returns(backend)
+    TestBackend.stubs(:new => backend)
   end
 
   it "should make call to /job/:job_name/lastBuild/api/json" do
