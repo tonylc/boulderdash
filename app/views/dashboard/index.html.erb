@@ -1,0 +1,11 @@
+<table>
+  <tr>
+    <th>Cluster
+    <th>Action
+    <th>Last Build
+  <% @jobs.each do |job_name| %>
+  <tr>
+    <td><%= job_name %>
+    <td><%= build_job_link(job_name) %>
+  <% end %>
+</table>
