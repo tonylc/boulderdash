@@ -6,11 +6,11 @@ gem 'mysql', '2.8.1'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'uglifier'
+  gem 'uglifier', '1.0.3'
 end
 
-gem 'jquery-rails'
-gem 'unicorn'
+gem 'jquery-rails', '1.0.16'
+gem 'unicorn', '4.1.1'
 
 # Deploy with Capistrano
 # gem 'capistrano'

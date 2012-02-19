@@ -120,11 +120,11 @@ PLATFORMS
 
 DEPENDENCIES
   fakeweb (= 1.3.0)
-  jquery-rails
+  jquery-rails (= 1.0.16)
   mocha (= 0.10.0)
   mysql (= 2.8.1)
   rails (= 3.1.0)
   rspec (= 2.6.0)
   rspec-rails (= 2.6.1)
-  uglifier
-  unicorn
+  uglifier (= 1.0.3)
+  unicorn (= 4.1.1)
