@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   private
 
   def jenkins_service
-    JenkinsService.new(Backends::Http.new)
+    JenkinsService.new(Backends::Fake)
   end
 
   def initialize_jenkins
